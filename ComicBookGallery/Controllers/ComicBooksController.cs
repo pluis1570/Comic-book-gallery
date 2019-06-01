@@ -10,13 +10,14 @@ namespace ComicBookGallery.Controllers
     {
         public ActionResult Detail()
         {
-            if (DateTime.Today.DayOfWeek == DayOfWeek.Saturday)
-            {
-                return new RedirectResult("/");
-            }
-            return new ContentResult()
-            { Content = "Hello from the ComicBooks Controller!" };
-           // return "Hello from the ComicBooks Controller!";
+            return View();
+            //if (DateTime.Today.DayOfWeek == DayOfWeek.Saturday)
+            //{
+            //    return new RedirectResult("/");
+            //}
+            //return new ContentResult()
+            //{ Content = "Hello from the ComicBooks Controller!" };
+            //// return "Hello from the ComicBooks Controller!";
         }
     }
 }
