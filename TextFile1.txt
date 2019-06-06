@@ -1,1 +1,3 @@
 https://teamtreehouse.com/library/creating-a-project-using-visual-studio
+
+https://github.com/treehouse-projects/aspnet-comic-book-gallery/blob/master/walkthroughs/add-series-list-and-detail-views/03-adding-the-series-repository.md
